@@ -1,0 +1,133 @@
+.form-group{
+    width: 400px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.form-control{
+    border: 3px solid  #9E9E9E;
+}
+.label{
+    font-size: 2rem;
+    color: #04285A;
+}
+h1{
+    color: #04285A;
+    margin-left: 6rem;
+}
+.col-4{
+    width: 345px;
+    height: 700px;
+    background-color:#b1608f;
+    margin: 1rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+  }
+
+.row-1{
+    margin-top: 10rem;
+    background-color: white;
+    margin-left: 5rem;
+}
+h5{
+    color: #676767;
+}
+
+.bn54 {
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    background-color: #001127;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+  }
+  
+  .bn54 .bn54span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+  }
+  
+  .bn54:hover {
+    animation: bn54rotate 0.7s ease-in-out both;
+  }
+  
+  .bn54:hover .bn54span {
+    animation: bn54storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+  }
+  
+  @keyframes bn54rotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes bn54storm {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  }
+  .sidebar-container{
+    margin-top: 4rem;
+    
+}
+
+.sidebar-btn {
+    display:block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+  }
+  .sidebar-row{
+    margin-left: 0rem;
+    margin-top: 4rem;
+  }
+
+  .sidebar-h6{
+    color: #FFFFFF75;
+    
+    
+  }
+  .step{
+    color: white;
+  }
+  .svg1{
+    height: 70px;
+  }
+  
